@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PALS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="locationTxt">Continuous Location Update</string>
+    <string name="action_settings">Settings</string>
+    <string name="nametab">Name:\t\t\t</string>
+    <string name="addresstab">Address:\t\t</string>
+    <string name="phonetab">Telephone:\t</string>
+    <string name="distancetab">Distance:\t\t</string>
+    <string name="versionName">1.0.0</string>
+    
+    <string name="helpitem1">What is PALS?</string>
+    <string name="helpdescitem1">PALS is an abbreviation from Public Accomodation Location Service, 
+        an application that can be used to find nearby ATM, gas station, and repair shop in Depok.</string>
+	
+    <string name="helpitem2">How far the radius coverage provided by the PALS application?</string>
+    <string name="helpdescitem2">The radius coverage that provided by PALS are 300 meters to 1.5 km from user\'s current location, 
+        but if the location is not found within those radius, user can make it display all location to show all location.</string>
+    
+    <string name="helpitem3">Why I get \"Cannot Detect Your Location\" message?</string>
+    <string name="helpdescitem3">Those message is shown if application cannot detect your current location. 
+        Please wait for a minute or restart the application. If this message still appear, 
+        that possible something wrong with your GPS or other positioning devices.</string>
+        
+    <string name="helpitem4">Why I get permission dialog when running the application?</string>
+    <string name="helpdescitem4">Those dialog appear if you use Android device with Android OS version 6.0 (Marshmallow).
+        just allow the required permissions and the dialog won\'t show again. If you deny the permission, 
+        that can cause some feature cannot be used or can cause the application cannot run normaly.</string>
+        
+    <string name="helpitem5">How to solve the problem that not in help list?</string>
+    <string name="helpdescitem5">You can send an email to pals@gopals.esy.es if have problems or questions.</string>
+        	
+    <string-array name="bank_name">
+        <item>Select Bank</item>
+        <item>Bank BCA</item>
+        <item>Bank Mandiri</item>
+        <item>Bank BNI</item>
+        <item>Bank BRI</item>
+        <item>Bank CIMB Niaga</item>
+        <item>Bank DKI</item>
+        <item>Bank Danamon</item>
+        <item>Bank Bukopin</item>
+        <item>Bank OCBC NISP</item>
+        <item>Bank Permata</item>
+        <item>Bank Panin</item>
+    </string-array>
+    
+    <string-array name="company">
+        <item>Select Company</item>
+        <item>Pertamina</item>
+        <item>Shell</item>
+    </string-array>
+    
+    <string-array name="radius_display">
+        <item>Select Radius</item>
+        <item>Display All</item>
+        <item>300 m</item>
+        <item>600 m</item>
+        <item>900 m</item>
+        <item>1.2 km</item>
+        <item>1.5 km</item>
+    </string-array>
+    
+    <string-array name="radius">
+        <item>Select Radius</item>
+        <item>Display All</item>
+        <item>0.3</item>
+        <item>0.6</item>
+        <item>0.9</item>
+        <item>1.2</item>
+        <item>1.5</item>
+        
+    </string-array>
+        
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gopals.pals"
+    android:versionCode="1"
+    android:versionName="@string/versionName" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+	
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:logo="@drawable/icon_2"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FindATM"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FindGasStation"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FindRepairShop"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ListResultActivity"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CategoryAddLocation"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AddLocationMapsActivity"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FormATM"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FormGasStation"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FormRepairShop"
+            android:logo="@drawable/icon_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAajjYuhWkdnwZ9UPBqT50vZzTA4i4h1io" />
+    </application>
+
+</manifest>

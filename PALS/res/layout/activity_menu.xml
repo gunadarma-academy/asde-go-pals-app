@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6" >
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/findATM"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:layout_weight="0.33"
+        android:background="@drawable/custom_button"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icbutton_atm" />
+        
+        <TextView
+            android:id="@+id/atmLbl"
+            style="@style/WhiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find ATM"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/findGasStation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:layout_weight="0.33"
+        android:background="@drawable/custom_button"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icbutton_spbu" />
+
+        <TextView
+            android:id="@+id/gasStationLbl"
+            style="@style/WhiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Gas Station"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:id="@+id/findRepairShop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="left|center_vertical"
+        android:layout_weight="0.33"
+        android:background="@drawable/custom_button"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icbutton_bengkel" />
+
+        <TextView
+            android:id="@+id/repairShopLbl"
+            style="@style/WhiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Repair Shop"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

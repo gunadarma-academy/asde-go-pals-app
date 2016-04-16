@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+	    <TextView
+	        android:id="@+id/categoryLbl"
+	        style="@style/BlackText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Select Category"
+	        android:textSize="28sp" />
+    </LinearLayout>
+    <View 
+	   android:layout_width="fill_parent"
+	   android:layout_height="1dp"       
+	   android:background="#dbdbdb"/> 
+	   
+    <ListView
+		android:id="@android:id/list"
+        android:layout_height="wrap_content"
+      	android:layout_width="fill_parent" />
+    <View 
+	   android:layout_width="fill_parent"
+	   android:layout_height="1dp"       
+	   android:background="#dbdbdb"/> 
+</LinearLayout>

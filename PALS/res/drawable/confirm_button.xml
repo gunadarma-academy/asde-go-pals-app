@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true" 
+      android:drawable="@drawable/icbutton_confirm2"/> <!-- pressed state -->
+<item android:state_focused="true" 
+      android:drawable="@drawable/icbutton_confirm2"/> <!-- focused state -->
+<item android:drawable="@drawable/icbutton_confirm1"/> <!-- default state -->
+
+</selector>
