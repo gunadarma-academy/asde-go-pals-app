@@ -326,6 +326,10 @@ public class FindRepairShop extends Activity implements
 				 //e.printStackTrace();
 				error = "Slow Internet Connection";
 				return false;
+			} catch(RuntimeException e){
+				//e.printStackTrace();
+				error = "Slow Internet Connection";
+				return false;
 			}
 		}
 		

@@ -2,6 +2,7 @@ package com.gopals.pals;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.Locale;
 
 import android.location.Location;
 
@@ -19,7 +20,11 @@ public class CalculateRadius {
                 + Math.cos(Math.toRadians(curLat))
                 * Math.cos(Math.toRadians(destLat)) * Math.sin(dLon / 2)
                 * Math.sin(dLon / 2);
-        NumberFormat newFormat = new DecimalFormat("#.##");
+        NumberFormat newFormat = NumberFormat.getInstance(Locale.US);
+        if (newFormat instanceof DecimalFormat) {
+            ((DecimalFormat) newFormat).applyPattern("#.##");
+        }
+        
         double result = 2 * Math.asin(Math.sqrt(a));
            
         return Double.valueOf(newFormat.format(Radius * result));
